@@ -14,9 +14,10 @@ export default function Home() {
       .map((a) => a.value)
 
   return (
-    <div>
+    <>
       <Head>
-        <title>Randome Seats Generator</title>
+        <title>Random Seats Generator</title>
+        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Container maxWidth='sm'>
         <Typography
@@ -27,7 +28,7 @@ export default function Home() {
         >
           Random Seats Generator
         </Typography>
-        <Box sx={{ bgcolor: 'background.paper', border: 1, borderRadius: 2 }}>
+        <Box sx={{ bgcolor: 'grey.50', border: 1, borderRadius: 2 }}>
           {seatsImageComponent(seats)}
         </Box>
         <Stack justifyContent='center' alignItems='center' sx={{ margin: 2 }}>
@@ -40,7 +41,7 @@ export default function Home() {
           </Button>
         </Stack>
       </Container>
-    </div>
+    </>
   )
 }
 
