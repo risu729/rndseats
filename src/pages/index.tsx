@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Random Seats Generator</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
       </Head>
       <Container maxWidth='sm'>
         <Typography
