@@ -1,0 +1,43 @@
+{
+  "name": "rndseats",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Risu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "format": "eslint src --fix && prettier --ignore-path .gitignore --write **/*.{js,jsx,ts,tsx,json,css}",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@mui/icons-material": "5.11.0",
+    "@mui/material": "5.11.8",
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.10",
+    "next": "13.1.6",
+    "npm": "9.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "@typescript-eslint/eslint-plugin": "5.52.0",
+    "@typescript-eslint/parser": "5.52.0",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.2",
+    "prettier": "2.8.4"
+  }
+}
