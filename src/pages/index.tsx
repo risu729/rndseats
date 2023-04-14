@@ -28,7 +28,7 @@ export default function Home() {
         >
           Random Seats Generator
         </Typography>
-        <Box sx={{ bgcolor: 'grey.50', border: 1, borderRadius: 2 }}>
+        <Box sx={{ border: 1, borderRadius: 2 }}>
           {seatsImageComponent(seats)}
         </Box>
         <Stack justifyContent='center' alignItems='center' sx={{ margin: 2 }}>
@@ -46,57 +46,272 @@ export default function Home() {
 }
 
 const seatsImageComponent = (seats: number[]) => (
-  <svg xmlns='http://www.w3.org/2000/svg' viewBox='150 100 650 500'>
-    <g stroke='#000' strokeWidth={2} fill='#FFF'>
-      <path d='m589 596 52-30-40-69-52 30 40 69Zm132-53-30-52-70 40 30 52 70-40Zm69-40-30-52-69 40 30 52 69-40Zm-30-52-30-51-69 40 30 51 69-40Zm-69 40-30-51-70 40 30 51 70-40ZM169 469l52 30 40-69-52-30-40 69Zm112 87 30-52-70-40-30 52 70 40Zm69 40 30-52-69-40-30 52 69 40Zm30-52 30-52-69-40-30 52 69 40Zm-69-40 30-52-70-40-30 52 70 40ZM746 310l-30-52-69 40 30 52 69-40Zm-53-131-52 30 40 69 52-30-40-69Zm-40-69-52 30 40 69 52-30-40-69Zm-52 30-52 30 40 69 52-30-40-69Zm40 69-52 30 40 69 52-30-40-69ZM499 370v-60h-80v60h80Zm20-140h-60v80h60v-80Zm0-80h-60v80h60v-80Zm-60 0h-60v80h60v-80Zm0 80h-60v80h60v-80ZM239 350l30-52-70-40-30 52 70 40Zm87-111-52-30-40 69 52 30 40-69Zm40-69-52-30-40 69 52 30 40-69Zm-52-30-52-30-40 69 52 30 40-69Zm-40 69-52-30-40 69 52 30 40-69Z' />
-    </g>
-    <text transform='matrix(1.745 0 0 1.851 -421.892 -6.206)' x={390} y={97}>
-      {seats[0]}
+  <svg
+    width='550'
+    height='550'
+    viewBox='0 0 1200 1200'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <rect
+      x='966.53'
+      y='1138.64'
+      width='117'
+      height='177'
+      transform='rotate(-120 966.53 1138.64)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='955.778' y='901.826'>
+        {seats[0]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -460.559 59.128)' x={390} y={97}>
-      {seats[1]}
+    <rect
+      x='805.972'
+      y='680.549'
+      width='117'
+      height='177'
+      transform='rotate(-30 805.972 680.549)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='978.816' y='1061.73'>
+        {seats[1]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -471.225 131.128)' x={390} y={97}>
-      {seats[2]}
+    <rect
+      x='895.972'
+      y='836.434'
+      width='117'
+      height='177'
+      transform='rotate(-30 895.972 836.434)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='851.855' y='961.826'>
+        {seats[2]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -260.559 22.461)' x={390} y={97}>
-      {seats[3]}
+    <rect
+      x='792.049'
+      y='896.434'
+      width='117'
+      height='177'
+      transform='rotate(-30 792.049 896.434)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='761.855' y='805.941'>
+        {seats[3]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -260.559 102.461)' x={390} y={97}>
-      {seats[4]}
+    <rect
+      x='702.049'
+      y='740.549'
+      width='117'
+      height='177'
+      transform='rotate(-30 702.049 740.549)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='865.778' y='195.941'>
+        {seats[4]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -230.559 172.461)' x={390} y={97}>
-      {seats[5]}
+    <rect
+      x='966.53'
+      y='588.643'
+      width='117'
+      height='177'
+      transform='rotate(-120 966.53 588.643)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='955.778' y='351.826'>
+        {seats[5]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -200.559 102.461)' x={390} y={97}>
-      {seats[6]}
+    <rect
+      x='805.972'
+      y='130.549'
+      width='117'
+      height='177'
+      transform='rotate(-30 805.972 130.549)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='978.816' y='511.729'>
+        {seats[6]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -36.559 -6.206)' x={390} y={97}>
-      {seats[7]}
+    <rect
+      x='895.972'
+      y='286.434'
+      width='117'
+      height='177'
+      transform='rotate(-30 895.972 286.434)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='851.855' y='411.826'>
+        {seats[7]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -3.226 59.128)' x={390} y={97}>
-      {seats[8]}
+    <rect
+      x='792.049'
+      y='346.434'
+      width='117'
+      height='177'
+      transform='rotate(-30 792.049 346.434)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <rect
+      x='702.049'
+      y='190.549'
+      width='117'
+      height='177'
+      transform='rotate(-30 702.049 190.549)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='376.278' y='805.441'>
+        {seats[8]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -5.226 134.461)' x={390} y={97}>
-      {seats[9]}
+    <rect
+      x='88.0298'
+      y='1050.14'
+      width='117'
+      height='177'
+      transform='rotate(-60 88.0298 1050.14)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='286.278' y='961.326'>
+        {seats[9]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -485.892 284.461)' x={390} y={97}>
-      {seats[10]}
+    <rect
+      x='404.472'
+      y='682.049'
+      width='117'
+      height='177'
+      transform='rotate(30 404.472 682.049)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='159.316' y='1061.23'>
+        {seats[10]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -441.893 341.794)' x={390} y={97}>
-      {seats[11]}
+    <rect
+      x='314.472'
+      y='837.934'
+      width='117'
+      height='177'
+      transform='rotate(30 314.472 837.934)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='182.355' y='901.326'>
+        {seats[11]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -370.56 378.461)' x={390} y={97}>
-      {seats[12]}
+    <rect
+      x='210.549'
+      y='777.934'
+      width='117'
+      height='177'
+      transform='rotate(30 210.549 777.934)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <rect
+      x='300.549'
+      y='622.049'
+      width='117'
+      height='177'
+      transform='rotate(30 300.549 622.049)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <rect
+      x='88.0298'
+      y='500.143'
+      width='117'
+      height='177'
+      transform='rotate(-60 88.0298 500.143)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='286.278' y='411.326'>
+        {seats[12]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -105.892 372.46)' x={390} y={97}>
-      {seats[13]}
+    <rect
+      x='404.472'
+      y='132.049'
+      width='117'
+      height='177'
+      transform='rotate(30 404.472 132.049)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='159.316' y='511.229'>
+        {seats[13]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 -30.559 367.795)' x={390} y={97}>
-      {seats[14]}
+    <rect
+      x='314.472'
+      y='287.934'
+      width='117'
+      height='177'
+      transform='rotate(30 314.472 287.934)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='182.355' y='351.326'>
+        {seats[14]}
+      </tspan>
     </text>
-    <text transform='matrix(1.745 0 0 1.851 39.442 328.461)' x={390} y={97}>
-      {seats[15]}
+    <rect
+      x='210.549'
+      y='227.934'
+      width='117'
+      height='177'
+      transform='rotate(30 210.549 227.934)'
+      stroke='black'
+      strokeWidth='3'
+    />
+    <text fill='black' fontSize='50' fontWeight='bold'>
+      <tspan x='272.355' y='195.441'>
+        {seats[15]}
+      </tspan>
     </text>
+    <rect
+      x='300.549'
+      y='72.049'
+      width='117'
+      height='177'
+      transform='rotate(30 300.549 72.049)'
+      stroke='black'
+      strokeWidth='3'
+    />
   </svg>
 )
