@@ -35,6 +35,6 @@
     "husky": "8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
-    "prettier-plugin-organize-imports": "^3.2.2"
+    "prettier-plugin-organize-imports": "3.2.2"
   }
 }
