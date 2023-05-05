@@ -9,6 +9,7 @@ const nextConfig = {
     disableStaticImages: true,
     unoptimized: true,
   },
+  output: 'export',
 
   /**
    * @type {(config: import('webpack').Configuration) => import('webpack').Configuration}
