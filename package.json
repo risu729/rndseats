@@ -7,8 +7,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "start": "next start",
     "lint": "npm-run-all lint:*",
     "lint:eslint": "eslint --max-warnings 0 .",
     "lint:tsc": "tsc --noEmit",
