@@ -4,12 +4,13 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  basePath: '/rndseats',
+  output: 'export',
   reactStrictMode: true,
   images: {
     disableStaticImages: true,
     unoptimized: true,
   },
-  output: 'export',
 
   /**
    * @type {(config: import('webpack').Configuration) => import('webpack').Configuration}
