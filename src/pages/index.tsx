@@ -15,13 +15,15 @@ export default function Home() {
   const shuffleSeats = () => {
     let svgStr = SeatsImage as string
     ;[...Array(16).keys()]
+      .map((a) => a + 1)
+      .filter((a) => a !== 10)
       .map((a) => ({ sort: Math.random(), value: a }))
       .sort((a, b) => a.sort - b.sort)
       .map((a) => a.value)
       .forEach((number, index) => {
         svgStr = svgStr.replace(
           new RegExp(`(<tspan.*>)${index + 1}(<\/tspan>)`),
-          `$1${(number + 1).toString()}$2`,
+          `$1${number.toString()}$2`,
         )
       })
     return `data:image/svg+xml;utf8,${svgStr}`
