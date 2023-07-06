@@ -1,13 +1,12 @@
 // @ts-check
 
-// @ts-expect-error
-const organizeImports = require('prettier-plugin-organize-imports')
+// @ts-expect-error - no types
+import organizeImports from 'prettier-plugin-organize-imports'
 
 /**
  * @type {import("prettier").Config}
  */
-module.exports = {
-  trailingComma: 'all',
+export default {
   semi: false,
   singleQuote: true,
   jsxSingleQuote: true,
