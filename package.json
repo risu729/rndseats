@@ -27,7 +27,7 @@
     "@types/react-dom": "18.2.7",
     "canvg": "4.0.1",
     "next": "13.4.19",
-    "npm": "9.8.1",
+    "npm": "10.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2"
