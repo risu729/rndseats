@@ -1,3 +1,3 @@
 # Random Seats Generator
 
-URL: https://risu729.github.io/rndseats/
+URL: https://rndseats.risunosu.com
