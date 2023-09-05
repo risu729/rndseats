@@ -4,7 +4,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  basePath: '/rndseats',
+  basePath: '',
   output: 'export',
   reactStrictMode: true,
   images: {
