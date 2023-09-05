@@ -4,6 +4,7 @@
   "private": true,
   "author": "Risu",
   "license": "MIT",
+  "homepage": "rndseats.risunosu.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
