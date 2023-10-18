@@ -36,7 +36,7 @@
     "@humanwhocodes/gitignore-to-minimatch": "1.0.2",
     "@types/eslint": "8.44.4",
     "@types/eslint-config-prettier": "6.11.1",
-    "@types/lint-staged": "13.2.0",
+    "@types/lint-staged": "13.2.1",
     "@types/webpack": "5.28.3",
     "@typescript-eslint/eslint-plugin": "5.61.0",
     "@typescript-eslint/parser": "5.62.0",
